@@ -6,8 +6,8 @@ if operacao == "+":
 elif operacao == "-":
    print("a subtraçao dos dois numeros é " ,numero1 - numero2,)
 elif operacao == "*":
-   print("a multiplicaçao dos dois numeros é " ,numero1 * numero2,)
+   print("a multiplicaçao dos dois numeros é" ,numero1 * numero2,)
 elif operacao == "/":
-   print("a divisao dos dois numeros é " ,numero1 / numero2,)   
+   print("a divisao dos dois numeros é " ,numero1 / numero2,)        
 else:
    print("INVALIDO!!!") 
