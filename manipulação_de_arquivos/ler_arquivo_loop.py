@@ -3,4 +3,4 @@ try:
         for linha in arquivo:
             print(linha)
 except FileNotFoundError:
-    print('arquivo não encontrado')            
+    print('arquivo não encontrado')
