@@ -1,0 +1,2 @@
+RELATORIO DE LOGS
+existem 170 ocorrencias do log INFOexistem 171 ocorrencias do log ERRORexistem 159 ocorrencias do log WARNING

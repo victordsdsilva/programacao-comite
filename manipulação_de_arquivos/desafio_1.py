@@ -17,3 +17,17 @@ def ler_logs(nome_arquivo):
     return resultados
 
 
+def gerar_relatorio(resultados):
+    with open('relatorio.txt', 'w') as arquivo:
+        arquivo.write('RELATORIO DE LOGS\n')
+        for chave, valor in resultados.items():
+            arquivo.write(f'existem {valor} ocorrencias do log {chave}')
+
+
+def main():
+    nome_arquivo = 'desafio_logs.txt'
+    resultados = ler_logs(nome_arquivo)
+    gerar_relatorio(resultados)
+
+
+main()                
