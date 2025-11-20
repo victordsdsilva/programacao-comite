@@ -1,6 +1,6 @@
 nome | victor
-nota_1 | 2.00
-nota_2 | 5.00
-nota_3 | 4.00
-media | 3.67
+nota_1 | 3.00
+nota_2 | 4.00
+nota_3 | 9.00
+media | 5.33
 status_aluno | REPROVADO
